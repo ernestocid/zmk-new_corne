@@ -61,42 +61,6 @@
     combos {
         compatible = "zmk,combos";
 
-        word-back {
-            bindings = <&mt LEFT_ALT LEFT>;
-            key-positions = <17>;
-            layers = <2>;
-        };
-
-        word-forward {
-            bindings = <&mt LEFT_ALT RIGHT>;
-            key-positions = <18>;
-            layers = <2>;
-        };
-
-        beginning-line {
-            bindings = <&mt LEFT_COMMAND LEFT>;
-            key-positions = <4>;
-            layers = <2>;
-        };
-
-        end-line {
-            bindings = <&mt LEFT_COMMAND RIGHT>;
-            key-positions = <5>;
-            layers = <2>;
-        };
-
-        backspace-one-word {
-            bindings = <&mt LEFT_ALT BACKSPACE>;
-            key-positions = <14>;
-            layers = <2>;
-        };
-
-        backspace-line {
-            bindings = <&mt LEFT_COMMAND BACKSPACE>;
-            key-positions = <1>;
-            layers = <2>;
-        };
-
         left_paren {
             bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <1 2 3>;
