@@ -142,10 +142,10 @@
         raise_layer {
             display-name = "NAV";
             bindings = <
-&trans  &kp LA(LEFT_ARROW)  &kp LA(RIGHT_ARROW)  &trans        &kp LG(LEFT_ARROW)  &kp LG(RIGHT)                            &mmv MOVE_UP                     &kp LG(LA(LEFT_ARROW))  &kp LG(LA(RIGHT_ARROW))  &trans        &kp LG(LEFT_BRACE)  &kp LG(RIGHT_BRACE)  &kp BSPC
-&trans  &mmv MOVE_RIGHT     &mmv MOVE_DOWN       &mmv MOVE_UP  &mmv MOVE_LEFT      &trans                   &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT_ARROW          &kp DOWN                 &kp UP_ARROW  &kp RIGHT           &trans               &kp GRAVE
-&trans  &kp LG(BACKSPACE)   &kp LA(BACKSPACE)    &trans        &mkp RCLK           &mkp RCLK      &trans                    &mmv MOVE_DOWN                   &trans                  &trans                   &trans        &trans              &kp PIPE             &kp TILDE
-                                                 &trans        &trans              &kp SPACE                                                                 &kp RET                 &trans                   &trans
+&trans  &mkp MB1        &mmv MOVE_UP    &mkp MB2         &kp LG(LEFT_ARROW)  &kp LG(RIGHT)                                  &mmv MOVE_UP                     &kp LG(LA(LEFT_ARROW))  &kp LG(LA(RIGHT_ARROW))  &trans        &kp LG(LEFT_BRACE)  &kp LG(RIGHT_BRACE)  &kp BSPC
+&trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp LA(LEFT_ARROW)  &kp LA(RIGHT_ARROW)            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT_ARROW          &kp DOWN                 &kp UP_ARROW  &kp RIGHT           &trans               &kp GRAVE
+&trans  &trans          &trans          &trans           &kp LA(BACKSPACE)   &kp LG(BACKSPACE)    &trans                    &mmv MOVE_DOWN                   &trans                  &trans                   &trans        &trans              &kp PIPE             &kp TILDE
+                                        &trans           &trans              &kp SPACE                                                                       &kp RET                 &trans                   &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
