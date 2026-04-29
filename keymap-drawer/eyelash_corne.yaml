@@ -95,8 +95,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - INS
-  - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   NAV:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -144,7 +144,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   Fn:
@@ -246,23 +246,23 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [1, 2, 3]
+- p: [2, 3]
   k: (
-- p: [3, 4, 5]
+- p: [3, 4]
   k: )
-- p: [29, 30, 31]
+- p: [30, 31]
   k: '{'
-- p: [31, 32, 33]
+- p: [31, 32]
   k: '}'
-- p: [14, 15, 16]
+- p: [15, 16]
   k: {t: '[', s: '{'}
-- p: [16, 17, 18]
+- p: [16, 17]
   k: {t: ']', s: '}'}
-- p: [7, 9, 8]
+- p: [9, 8]
   k: {t: '-', s: _}
-- p: [9, 10, 11]
+- p: [9, 10]
   k: _
-- p: [22, 23, 24]
+- p: [23, 24]
   k: {t: '=', s: +}
-- p: [24, 25, 26]
+- p: [24, 25]
   k: +
